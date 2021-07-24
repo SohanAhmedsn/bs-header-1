@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+    /* Header section  */
+#abul-personal-portfolio-container{
+    background-color:black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+
+}
+
+.abul-hasan-img img{
+    width: 400px;
+    height: 300px;
+}
+
+#name-of-abul{
+    font-size: 2em;
+    color: crimson;
+}
+
+
+
+.hasan-color{
+    font-size: 20px;
+    color:orange;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .abul-hasan-img img, #name-of-abul {
+     width: 100%;
+     
+    }
+  }
+  
